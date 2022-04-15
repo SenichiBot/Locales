@@ -1,0 +1,33 @@
+command:
+    somethingHasGoneWrong: "Algo deu errado... `{0}`"
+    moderation:
+        description: "Comandos de moderação"
+        
+        youDontHavePermission: "Você não tem permissão para usar este comando."
+        iDontHavePermission: "Eu preciso da permissão `{0}` para poder executar este comando."
+    
+        banType: "banir"
+        kickType: "expulsar"
+        timeoutType: "silenciar"
+        unbanType: "desbanir"
+        
+        button:
+            yes: "Sim"
+            no: "Não"
+        
+        punishmentConfirmation: "Você está prestes a {0} <@{1}>.\n\n**Você tem certeza?**"
+        incomingPunishment: "Punição a Caminho!"
+        successfullyPunishment: "{0}#{1} (`{2}`) foi punido com sucesso!"
+        
+        ban:
+            dmEmbedTitle: "Você foi banido."
+            dmEmbedDescription: "Preste atenção nas regras da próxima vez. :/"
+            dmEmbedServer: "Servidor"
+            dmEmbedReason: "Motivo"
+            description: "Moderação » Bane um membro do seu servidor."
+        timeout:
+            dmEmbedTitle: "Você foi silenciado."
+            dmEmbedDescription: "Preste atenção nas regras da proxima vez. :/"
+            dmEmbedServer: "Servidor"
+            dmEmbedReason: "Motivo"
+            description: "Moderação » Deixa um membro do seu servidor sem poder falar."
